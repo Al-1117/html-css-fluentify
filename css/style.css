@@ -1,0 +1,126 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FINE RESET */
+
+/* REGOLE GENERALI */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+}
+
+.menu::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* FINE GENERALI */
+
+/* HEADER */
+header {
+  color: #ffffff;
+  height: 500px;
+  background-color: #0c325a;
+  background-image: url(../img/background-header.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 1000px 120px;
+
+}
+
+header
+
+/* Menu */
+
+.menu {
+  padding-top: 2%;
+}
+
+.menu .logo{
+  float: left;
+  font-size: 10px;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+.menu .left-menu {
+  float: left;
+  position: relative;
+  left: 10%;
+}
+
+.menu .right-menu {
+  position: relative;
+  left: 35%;
+  float: left;
+
+}
+
+.menu .left-menu ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.menu .right-menu ul li {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.menu .right-menu ul li:nth-child(2) {
+  border: 1px solid #ffffff;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.menu .right-menu ul li:last-child {
+  background-color: #7cbb02;
+  margin-left: 15px;
+  border-radius: 5px;
+
+}
+
+.title {
+  position: relative;
+  top: 100px;
+  width: 35%;
+}
+
+.title h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  word-spacing: 10px;
+}
+
+.cta a {
+  position: relative;
+  top: 130px;
+  padding: 13px;
+  width: 15%;
+  text-align: center;
+  font-size: 13px;
+  background-color: #7cbb02;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+}
