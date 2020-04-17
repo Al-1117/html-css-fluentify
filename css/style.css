@@ -5,9 +5,9 @@
   box-sizing: border-box;
 }
 
-/* FINE RESET */
+/* END OF  RESET */
 
-/* REGOLE GENERALI */
+/* GENERAL RULES */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 
-/* FINE GENERALI */
+/*END OF GENERAL RULES*/
 
 /* HEADER */
 header {
@@ -38,80 +38,83 @@ header {
 
 }
 
-header
 
 /* Menu */
-
-.menu {
+header .menu {
   padding-top: 2%;
 }
 
-.menu .logo{
+header .menu .logo{
   float: left;
   font-size: 10px;
 }
-.menu ul li {
+header .menu ul li {
   list-style: none;
 }
-.menu ul li a {
+header .menu ul li a {
   color: #ffffff;
   text-decoration: none;
 
 }
 
-.menu .left-menu {
+header .menu .left-menu {
   float: left;
   position: relative;
   left: 10%;
 }
 
-.menu .right-menu {
+header .menu .right-menu {
   position: relative;
   left: 35%;
   float: left;
 
 }
 
-.menu .left-menu ul li {
+header .menu .left-menu ul li {
   display: inline-block;
   padding: 10px 20px;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-.menu .right-menu ul li {
+header .menu .right-menu ul li {
   display: inline-block;
   padding: 10px;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-.menu .right-menu ul li:nth-child(2) {
+header .menu .right-menu ul li:nth-child(2) {
   border: 1px solid #ffffff;
   padding: 10px 40px;
   border-radius: 5px;
 }
 
-.menu .right-menu ul li:last-child {
+header .menu .right-menu ul li:last-child {
   background-color: #7cbb02;
   margin-left: 15px;
   border-radius: 5px;
 
 }
+/* End of Menu */
 
-.title {
+/* Title */
+header .title {
   position: relative;
   top: 100px;
   width: 35%;
 }
 
-.title h1 {
+header .title h1 {
   font-size: 40px;
   line-height: 1.5;
   word-spacing: 10px;
 }
+/* End of Title*/
 
-.cta a {
+/* Call to Action */
+
+header .cta a {
   position: relative;
   top: 130px;
   padding: 13px;
@@ -124,3 +127,4 @@ header
   color: #ffffff;
   border-radius: 3px;
 }
+/* End of Call to Action */
