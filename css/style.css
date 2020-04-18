@@ -47,6 +47,8 @@ header .menu {
 header .menu .logo{
   float: left;
   font-size: 10px;
+  width: 10%;
+  text-align: left;
 }
 header .menu ul li {
   list-style: none;
@@ -59,13 +61,13 @@ header .menu ul li a {
 
 header .menu .left-menu {
   float: left;
-  position: relative;
-  left: 10%;
+  width: 50%;
+  text-align: center;
 }
 
 header .menu .right-menu {
-  position: relative;
-  left: 35%;
+  text-align: right;
+  width: 40%;
   float: left;
 
 }
@@ -100,9 +102,10 @@ header .menu .right-menu ul li:last-child {
 
 /* Title */
 header .title {
-  position: relative;
+  display: inline-block;
   top: 100px;
   width: 35%;
+  padding-top: 8%;
 }
 
 header .title h1 {
@@ -115,7 +118,7 @@ header .title h1 {
 /* Call to Action */
 
 header .cta a {
-  position: relative;
+  display: inline-block;
   top: 130px;
   padding: 13px;
   width: 15%;
@@ -126,5 +129,6 @@ header .cta a {
   text-decoration: none;
   color: #ffffff;
   border-radius: 3px;
+  margin-top: 2%;
 }
 /* End of Call to Action */
