@@ -163,7 +163,7 @@ main .description  {
   margin-top: auto;
 }
 
-.program::after{
+main .program::after{
   content: "";
   display: table;
   clear: both;
@@ -203,7 +203,42 @@ main .description p {
 /* End of Description */
 
 /* Test */
+
+main .test {
+  margin: 10%
+}
+main .test img {
+  width: 40%;
+  display: inline-block;
+  float: left;
+  margin-top: -5%;
+}
+
+main .test .mountain-descript {
+float: left;
+width: 30%;
+margin-left: 30%;
+}
+
+main .test::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .mountain-descript h2 {
+  margin-bottom: 5%;
+}
+
+main .mountain-descript p {
+  margin-bottom: 5%;
+  color: #878787;
+}
+
+main .mountain-descript a {
+  color: blue;
+}
 /* End of Test */
-
-
 /* END OF MAIN SECTION */
+
+/* FOOTER SECTION */
