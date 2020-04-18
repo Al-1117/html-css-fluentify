@@ -135,10 +135,10 @@ header .cta a {
 
 /* END OF HEADER SECTION */
 
+
 /* MAIN SECTION */
 
 /* Banner */
-
 main .banner {
   background-color: #d3d3d3;
   height: 130px;
@@ -154,8 +154,56 @@ main .banner-text p {
 }
 /* End of Banner */
 
-/* Description */
 
+/* Description */
+main .description  {
+  float: left;
+  width: 33.33%;
+  display: inline-block;
+  margin-top: auto;
+}
+
+.program::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .description img {
+  margin: 10% 10%;
+}
+
+
+main #profile img {
+  width: 25%;
+  padding-left: 10px;
+}
+main #computer img {
+  width: 30%
+}
+main #doc img {
+  width: 25%;
+}
+
+main .description h3 {
+  color: #7cbb02;
+  width: 60%;
+  text-align: center;
+}
+
+main .description hr {
+  width: 15%;
+  margin: 5% 25%;
+}
+main .description p {
+  width: 80%;
+  text-align: justify;
+  color: #878787;
+}
 /* End of Description */
+
+/* Test */
+/* End of Test */
+
 
 /* END OF MAIN SECTION */
