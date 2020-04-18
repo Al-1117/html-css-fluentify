@@ -132,3 +132,30 @@ header .cta a {
   margin-top: 2%;
 }
 /* End of Call to Action */
+
+/* END OF HEADER SECTION */
+
+/* MAIN SECTION */
+
+/* Banner */
+
+main .banner {
+  background-color: #d3d3d3;
+  height: 130px;
+}
+
+main .banner-text {
+  padding-top: 2%;
+  text-align: center;
+  line-height: 2;
+}
+main .banner-text p {
+  color: #878787;
+}
+/* End of Banner */
+
+/* Description */
+
+/* End of Description */
+
+/* END OF MAIN SECTION */
