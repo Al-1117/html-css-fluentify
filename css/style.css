@@ -27,6 +27,7 @@ body {
 /*END OF GENERAL RULES*/
 
 /* HEADER */
+/* Header General rules */
 header {
   color: #ffffff;
   height: 500px;
@@ -37,6 +38,8 @@ header {
   background-position: 1000px 120px;
 
 }
+
+/* End of Header General rules */
 
 
 /* Menu */
@@ -173,7 +176,6 @@ main .description img {
   margin: 10% 10%;
 }
 
-
 main #profile img {
   width: 25%;
   padding-left: 10px;
@@ -197,7 +199,6 @@ main .description hr {
 }
 main .description p {
   width: 80%;
-  text-align: justify;
   color: #878787;
 }
 /* End of Description */
@@ -242,3 +243,94 @@ main .mountain-descript a {
 /* END OF MAIN SECTION */
 
 /* FOOTER SECTION */
+
+/* Footer General */
+footer {
+  height: 130px;
+  background-color: #d3d3d3;
+}
+
+
+footer {
+  padding-top: 3%;
+}
+
+.footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* End of Footer General */
+
+/* Footer title */
+footer .text {
+  float: left;
+  width: 45%;
+}
+
+footer .plan {
+  float: left;
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+/* nd of Footer title */
+
+
+footer .text h3{
+
+}
+
+
+footer .plan span {
+  color: #878787;
+  padding: 0 5%;
+}
+
+
+
+/* Input */
+footer .plan input {
+  color: #878787;
+  margin: 0 5%;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: inherit;
+  font-size: 13px;
+}
+
+footer .plan a {
+  text-align: center;
+  font-size: 13px;
+  background-color: #7cbb02;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 2% 1%;
+}
+/* End of Input */
+
+/* Help Button */
+footer .help {
+  display: inline-block;
+  width: 3%;
+  text-align: center;
+  background-color: #7cbb02;
+  border-radius: 3px;
+  padding: 0.4% 0;
+  position: fixed;
+  right: 22%;
+  bottom: 0%;
+}
+
+footer .help a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* End of Help Button */
+
+
+/* END OF FOOTER SECTION */
