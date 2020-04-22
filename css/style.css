@@ -239,6 +239,11 @@ main .mountain-descript p {
 main .mountain-descript a {
   color: blue;
 }
+
+main > hr {
+  width: 90%;
+  margin: auto;
+}
 /* End of Test */
 /* END OF MAIN SECTION */
 
