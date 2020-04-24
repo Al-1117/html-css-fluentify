@@ -145,6 +145,7 @@ header .cta a {
 main .banner {
   background-color: #d3d3d3;
   height: 130px;
+  margin-bottom: 50px;
 }
 
 main .banner-text {
@@ -162,8 +163,9 @@ main .banner-text p {
 main .description  {
   float: left;
   width: 33.33%;
-  display: inline-block;
-  margin-top: auto;
+  text-align: center;
+  padding: 1%;
+margin-bottom: 30px;
 }
 
 main .program::after{
@@ -172,13 +174,13 @@ main .program::after{
   clear: both;
 }
 
+
 main .description img {
-  margin: 10% 10%;
+
 }
 
 main #profile img {
   width: 25%;
-  padding-left: 10px;
 }
 main #computer img {
   width: 30%
@@ -190,7 +192,6 @@ main #doc img {
 main .description h3 {
   color: #7cbb02;
   width: 60%;
-  text-align: center;
 }
 
 main .description hr {
